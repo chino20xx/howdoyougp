@@ -92,7 +92,7 @@ header .menu-toggle {
 }
  
 
-/* this is for media queries */
+/* this is for media queries when window width is <750px */
 @media only screen and (max-width: 750px) {
     header {
         position: relative;
