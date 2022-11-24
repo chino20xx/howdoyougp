@@ -1,10 +1,10 @@
-$(document).ready(function() {
+/* this code is for the responsive drop down menu when window size <828px*/ $(document).ready(function() {
     $('.menu-toggle').on('click', function() {
         $('.nav').toggleClass('showing');
         $('.nav ul').toggleClass('showing');
     });
 
-    $('.post-wrapper').slick({
+    /* this code is for the carousel featured post slider */ $('.post-wrapper').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
