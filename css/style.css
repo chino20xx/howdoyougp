@@ -153,6 +153,7 @@ header .menu-toggle {
     height: 330px;
     margin: 0px 10px;
     display: inline-block;
+    text-align: center;
     background: white;
     border-radius: 5px;
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
@@ -161,6 +162,7 @@ header .menu-toggle {
 .post-slider .post-wrapper .post .post-info {
     height: 130px;
     padding: 0px 5px;
+    text-align: center;
 }
 
 .post-slider .post-wrapper .post .slider-image {
@@ -170,8 +172,8 @@ header .menu-toggle {
     border-top-right-radius: 5px;
 }
 
-/* this stuff is for media queries when window width is <750px */
-@media only screen and (max-width: 750px) {
+/* this stuff is for media queries when window width is <828px (to make the site compatible with mobile devices) */
+@media only screen and (max-width: 828px) {
     header {
         position: relative;
     }
