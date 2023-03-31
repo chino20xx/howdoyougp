@@ -34,11 +34,16 @@ a {
 }
 
 .btn { /* universal button class declared in the main content div */
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     background: #006669;
     color: white;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
+}
+
+.btn-big {
+    padding: 0.7rem 1.3rem;
+    line-height: 1.3rem;
 }
 
 .btn:hover {
@@ -321,7 +326,6 @@ header .menu-toggle {
 }
 
 .footer .footer-content {
-    border: 1px solid red;
     height: 350px;
     display: flex;
 }
@@ -329,7 +333,6 @@ header .menu-toggle {
 .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
-    border: 1px solid white;
 }
 
 .footer .footer-content h1, .footer .footer-content h2 {
@@ -383,7 +386,16 @@ header .menu-toggle {
     color: #bebdbd;
     margin-bottom: 10px;
     line-height: 1.5rem;
-    padding: 0.7rem 1.2rem;
+    padding: 0.9rem 1.4rem;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+    background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form .contact-btn {
+    float: right;
 }
 
 .footer .footer-bottom {
