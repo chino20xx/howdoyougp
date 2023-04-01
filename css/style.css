@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-html, 
-body {
+html, body {
     height: 100%;
     padding: 0px;
     margin: 0px;
@@ -11,12 +10,7 @@ body {
     font-family: 'Lora', serif;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 { /* this paragraph of code is for the universal font color */
+h1, h2, h3, h4, h5, h6 { /* this paragraph of code is for the universal font color */
     font-family: 'Candal', serif;
     color: #444;
     margin: 5px;
@@ -209,7 +203,6 @@ header .menu-toggle {
     padding: 0px 5px;
     text-align: center;
 }
-
 .post-slider .post-wrapper .post .slider-image {
     width: 100%;
     height: 200px;
@@ -229,6 +222,18 @@ header .menu-toggle {
     float: left;
 }
 
+.content .main-content.single {
+    background: white;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.content .main-content.single .post-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .content .main-content .post {
     width: 95%;
     height: 270px;
@@ -236,6 +241,19 @@ header .menu-toggle {
     border-radius: 5px;
     background: white;
     position: relative;
+}
+
+.content .popular .post {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.content .popular .post img {
+    height: 60px;
+    width: 75px;
+    float: left;
+    margin-right: 10px;
 }
 
 .content .main-content .post .post-preview i {
@@ -282,10 +300,15 @@ header .menu-toggle {
 .content .main-content .recent-post-title {
     margin: 20px;
 }
+
 .content .sidebar {
     width: 30%;
     float: left;
     height: 300px;
+}
+
+.content .sidebar.single {
+    padding: 0px 10px;
 }
 
 .content .sidebar .section {
@@ -396,6 +419,8 @@ header .menu-toggle {
 
 .footer .footer-content .contact-form .contact-btn {
     float: right;
+    font-size: 1.1em;
+    font-family: 'Lora', serif;
 }
 
 .footer .footer-bottom {
